@@ -46,7 +46,7 @@ function DisplayTask() {
   if (TaskArr.length === 0) {
     document.querySelector('.body-table tbody').innerHTML = `
       <tr>
-        <td colspan="4" class="fw-bold text-center text-white">Task List Is Empty!</td>
+        <td colspan="4" class="fw-bold text-center ">Task List Is Empty!</td>
       </tr>
     `;
   } else {
